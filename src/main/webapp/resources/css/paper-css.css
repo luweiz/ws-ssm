@@ -1,0 +1,32 @@
+/* jquery.page.js css  */
+#pager{
+    position:relative;
+    width:1000px;
+    text-align:center;
+    overflow:hidden;
+}
+#pager ul {
+    float:left;
+    position:relative;
+    left:50%;
+}
+
+#pager ul li{
+    position:relative;
+    right:50%;
+    float:left;
+}
+
+#pager ul.pages {display:block;border:none;text-transform:uppercase;font-size:14px;}
+#pager ul.pages li {list-style:none;float:left;border:0px solid #595656;text-decoration:none;margin:2px;padding: 5px 5px;
+	min-width: 20px;
+	color: #787d82;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+#pager ul.pages li:hover {background-color:#00a2e6;color:#ffffff;}
+#pager ul.pages li.pgEmpty {color: #c8cdd2;}
+#pager ul.pages li.pgCurrent {
+	border-color: transparent;color:#ffffff;background-color:#00a2e6;}
+
